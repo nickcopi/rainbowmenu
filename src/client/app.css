@@ -1,0 +1,27 @@
+
+body {
+	font-family:Arial;
+	margin:auto;
+}
+
+.menuItem{
+	color:white;
+	text-decoration: none;
+	padding:10px;
+}
+.menuItem:hover{
+	opacity:0.2;
+	cursor:pointer;
+
+}
+.menuCanvas:hover{
+	opacity:0.5;
+	cursor:pointer;
+
+}
+.menuBar{
+	padding:10px;
+	display: flex;
+	justify-content: space-evenly;
+	background-color: #333333;
+}
